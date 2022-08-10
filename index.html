@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <h1><title>Survey form</title></h1>
+  </head>
+  <body>
+    <header>
+      <h1><title>Survey Form</title>Survey Form</h1>
+      <p>What do you thing about our services</p>
+    </header>
+    <main>
+      <form id="Survey-form">
+        <label for="name" id="name-label">Please enter your name:</label>
+        <input id="name" type="text" required placeholder="Muhammad Hamza">
+
+        <hr>
+
+        <label for="email" id="email-label">Please enter your email:</label>
+        <input id="email" type="email" required
+        placeholder="pizza@pizza.com">
+        <hr>
+
+        <label for="number" id="number-label">Please enter your age:</label>
+        <input id="number" type="number" min="5" max="120"
+        placeholder="age" required>
+        <hr>
+
+        <label for="dropdown">Cake or Pizza or Sandwich</label>
+        <select id="dropdown">
+          <option>Cake</option>
+          <option>Pizza</option>
+          <option>Sandwich</option>
+
+        </select>
+      <hr>
+      <textarea name="name" rows="8" cols="80">Please write pur reviews</textarea>
+
+
+        <input type="submit">
+
+      </form>
+    </main>
+  </body>
+</html>
